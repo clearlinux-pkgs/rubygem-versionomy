@@ -4,7 +4,7 @@
 #
 Name     : rubygem-versionomy
 Version  : 0.5.0
-Release  : 7
+Release  : 8
 URL      : https://rubygems.org/downloads/versionomy-0.5.0.gem
 Source0  : https://rubygems.org/downloads/versionomy-0.5.0.gem
 Summary  : No detailed summary available
