@@ -4,13 +4,15 @@
 #
 Name     : rubygem-versionomy
 Version  : 0.5.0
-Release  : 8
+Release  : 9
 URL      : https://rubygems.org/downloads/versionomy-0.5.0.gem
 Source0  : https://rubygems.org/downloads/versionomy-0.5.0.gem
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
 BuildRequires : ruby
+BuildRequires : rubygem-blockenspiel
+BuildRequires : rubygem-minitest
 BuildRequires : rubygem-rdoc
 
 %description
@@ -50,7 +52,7 @@ fi
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost
-pushd %{buildroot}%{gem_dir}/gems/versionomy-0.4.4 && ruby -I.:lib test/tc_*.rb && popd
+pushd %{buildroot}%{gem_dir}/gems/versionomy-0.5.0 && ruby -I.:lib test/tc_*.rb && popd
 
 
 %files
